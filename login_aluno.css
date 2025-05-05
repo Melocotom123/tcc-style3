@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body, html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .left-side {
+    flex: 1;
+    background-color: #e0f0ff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right-side {
+    flex: 1;
+    background: url('imagens/login_aluno.jpeg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .login-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  
+  .login-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+  }
+  
+  .login-box button {
+    background-color: #ffffff;
+    color: #003366;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .login-box button:hover {
+    background-color: #003366;
+    color: white;
+  }
